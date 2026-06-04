@@ -53,3 +53,28 @@ Motion planning initially failed because robot joint states were not being publi
 ## Conclusion
 
 This project provided hands-on experience with ROS2, MoveIt2, TF2, robot kinematics, and motion planning while developing practical debugging and robotic software development skills.
+
+
+## Project Demonstration
+
+### Panda Robot Loaded in RViz
+
+The Franka Emika Panda robot was successfully loaded in RViz using MoveIt2 for motion planning and trajectory execution.
+
+![Panda Robot](screenshots/panda_arm.png)
+
+### Motion Planning using MoveIt2
+
+A target pose was provided through RViz and MoveIt2 generated a valid collision-free trajectory for the robot arm.
+
+![Motion Planning](screenshots/motion_planning.png)
+
+![Motion Planning 2](screenshots/motion_planning2.png)
+
+### Joint State Monitoring
+
+A custom ROS2 Python node was developed to subscribe to the `/joint_states` topic and monitor the robot's joint angles in real time.
+
+![Joint Monitoring](screenshots/joint_monitoring1.png)
+
+![Joint Monitoring 2](screenshots/joint_monitoring2.png)
